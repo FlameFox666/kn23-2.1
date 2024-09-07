@@ -4,10 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-        <meta http-equiv="refresh" content="5">
+        <!--<meta http-equiv="refresh" content="5">-->
         
         <meta name="author" content="FlameFox666">
-        <meta name="description" content="placeholder">
+        <meta name="description" content="Цей проект створенний для того, щоб зібрати на одному сайті багато ігор та інформацію про них, включаючи де їх можна купити та відгук від звичайних людей.">
         <meta name="keywords" content="game, rating">
 
         <title>CataloGames</title>
@@ -18,11 +18,20 @@
             h2 {text-align: center;}
         </style>
     </head>
+
     <body>
         <!--Назва-->
         <div>
             <h1> CataloGames </h1> 
             <h2> <i>найкращий каталог комп'ютерних ігор</i> </h2>
+        </div>
+
+        <!--Опис-->
+        <div>
+            <p>
+                Цей проект створенний для того, щоб зібрати на одному сайті багато ігор та 
+                інформацію про них, включаючи де їх можна купити та відгук від <u>звичайних</u> людей.
+            </p>
         </div>
 
         <!--Перелик-->
@@ -36,69 +45,208 @@
                     <a href="https://www.metacritic.com/game/">Metacritic</a> 
                 </li>
                 <li>
-                    <a href="https://opencritic.com/">OpetCritic</a> 
+                    <a href="https://opencritic.com/">OpenCritic</a> 
                 </li>
             </ul>
         </div>
 
-        <!--Таблицы--> 
+        <!--Таблиця--> 
         <table>
             <h3> Зображення cхожего проєкту: </h3>
             <thead>
                 <th>
                     <th> IGDB </th>
                     <th> Metacritic </th>
-                    <th> OpetCritic </th>
+                    <th> OpenCritic </th>
                 </th>
             </thead>
             
             <tbody>
                 <td>
-                    <td> <img src="./images/example1.png" alt="IGDB" title="IGDB"> </td>
-                    <td> <img src="./images/example2.png" alt="Metacritic" title="Metacritic"> </td>
-                    <td> <img src="./images/example3.png" alt="OpetCritic" title="OpetCritic"> </td>
+                    <td> 
+                        <a href="https://www.igdb.com/">
+                            <img src="./images/example1.png" alt="IGDB" title="IGDB">
+                        </a> 
+                    </td>
+                    <td> 
+                        <a href="https://www.metacritic.com/game/">
+                            <img src="./images/example2.png" alt="Metacritic" title="Metacritic">
+                        </a> 
+                    </td>
+                    <td> 
+                        <a href="https://opencritic.com/">
+                            <img src="./images/example3.png" alt="OpenCritic" title="OpenCritic">
+                        </a> 
+                    </td>
                 </td>
             </tbody>
+        </table>
+
+        <table>
+            <h3> Таблиця з інформацією: </h3>
+            <thead>
+                <tr>
+                    <th>Тег</th>
+                    <th>Опис</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>&lt;html&gt;</b></td>
+                    <td>
+                        Кореневий тег для HTML-документу.
+                        Є контейнером для всіх ішних HTML-тегів.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;head&gt;</b></td>
+                    <td>
+                        Тег-контейнер для підгрузки метаданих HTML-документу.
+                        Метадані встановлює назву файлу, стилі, скрипти та інші метадані.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;meta&gt;</b></td>
+                    <td>
+                        Тег задає усі метадані про HTML-документ.
+                        Метадані використовуються браузерами, пошуковими системами та іншими веб-сервісами.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;title&gt;</b></td>
+                    <td>
+                        Тег, що відображає назву документу на вкладці браузеру. 
+                        Повинен бути лише текстовим.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;link&gt;</b></td>
+                    <td>
+                        Тег визначає зв'язок з документом та зовнішнім ресурсом. 
+                        Найчастище використовується для зв'язування зі зовнішними таблицями стилів 
+                        або додавання фавікону <i>(значка сайту)</i>. 
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;style&gt;</b></td>
+                    <td>
+                        Тег для CSS стилів документа. 
+                        Позначається як повинен відображатися кожен елемент сайту. 
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;body&gt;</b></td>
+                    <td>
+                        Тег-контейнер для всього: тексту, заголовків, абзаців, зображень, гіпер-посилань, списків та іншого.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;div&gt;</b></td>
+                    <td>
+                        Тег для поділу елементів на розділу/папки. 
+                        Можна використовувати тег для стилізації через <b>CSS</b> або для використанням <b>JavaScript</b>.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;h1&gt;-&lt;h3&gt;</b></td>
+                    <td>Тег для виділення заголовків. 
+                        h1 — найважливіший, а чим більше число — тим менш важливіший. 
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;b&gt;</b></td>
+                    <td>
+                        Тег, що робить текст жирним.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;i&gt;</b></td>
+                    <td>
+                        Тег, що робить текст курсивним.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;u&gt;</b></td>
+                    <td>
+                        Тег, що робить текст підкрессленим.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;p&gt;</b></td>
+                    <td>
+                        Тег, що виділяє параграф тексту. 
+                        Браузери завжди добавляють пусту строку під параграфом.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;ul&gt;</b></td>
+                    <td>
+                        Тег для не-організованного списку. ( • ○ ■ )
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;li&gt;</b></td>
+                    <td>
+                        Тег, що відображає елемент списку. 
+                        Викорисовується у &lt;ul&gt; та &lt;ol&gt;.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;a&gt;</b></td>
+                    <td>
+                        Тег, що використовується для гіпер-посилань.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;table&gt;</b></td>
+                    <td>
+                        Тег-контейнер для утворення HTML-таблиці.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;thead&gt;</b></td>
+                    <td>
+                        Тег використовується для групування заголовків у HTML-таблиці.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;tbody&gt;</b></td>
+                    <td>
+                        Тег використовується для групування основного вмісту HTML-таблиці.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;tfoot&gt;</b></td>
+                    <td>
+                        Тег використовується для групування вмісту нижньої частини в HTML-таблиці.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;tr&gt;</b></td>
+                    <td>
+                        Тег визначає рядок у HTML-таблиці.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;th&gt;</b></td>
+                    <td>
+                        Тег визначає заголовок у HTML-таблиці.
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;td&gt;</b></td>
+                    <td>
+                        Тег визначає дані у HTML-таблиці.
+                    </td>
+                </tr>
+            </tbody>
             <tfoot>
-                <th>
-                    <td> Нога </td>
-                    <td> Рука </td>
-                </th>
+                <tr>
+                    <th>Тег</th>
+                    <th>Опис</th>
+                </tr>
             </tfoot>
         </table>
 
-        <!--Типы-->
-        <div>
-            img - пикча <br>
-            a - ссыль <br>
-            <b> span - </b> класс
-        </div>
-
-        <!--Пикчи-->
-        <div>
-            <img src="./images/placeholder.jpg" alt="boom" title="boom">
-            <img src="./images/placeholder.jpg" alt="boom2">
-        </div> 
-
-        <!--Ссылки-->
-        <div>
-            ol - ordered list <br>
-            ul - underdered list
-            <ul style="list-style-type:square">
-                <li>
-                    <a href="https://google.com">Google</a>
-                </li>
-                <li>
-                    <a href="https://google.com">G00gle</a>
-                </li>
-                <li>
-                    <a href="https://google.com">Gooogle</a>
-                </li>
-                <li>
-                    <a href="https://google.com">Gogle</a>
-                </li>
-            </ol>
-        </div>
-        
     </body>
 </html>

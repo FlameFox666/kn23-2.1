@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.imgList {
+    th {
+        text-align: center;
+        padding: 4px;
+    }
+    td {
+        text-align: center;
+    }
+    td:hover {background-color: #D9C9F6;}
+}
+
+.tagTable {
+    tr:nth-child(even) {background-color: #f2f2f2;}
+    th {
+        background-color: #AD91E1;
+        color: white;
+    }
+}
+
+.tagList {
+    width: 84px;
+}
+
+h1 {text-align: center;}
+h2 {text-align: center;}

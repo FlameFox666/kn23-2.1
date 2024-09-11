@@ -81,12 +81,12 @@ th, td {
 }
 
 .tagFirst {
-    width: 84px;
+    width: 100px;
     text-align: center;
 }
 
 .tagSecond {
-    width: 100%;
+    width: 94%;
     text-align: left;
 }
 

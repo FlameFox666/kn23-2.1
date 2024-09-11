@@ -42,7 +42,7 @@ th, td {
     box-sizing: border-box;
     margin: 12px;
     table {
-        border-collapse: collapse;
+        border-collapse:collapse;
         width: 100%;
     }
     
@@ -76,6 +76,10 @@ th, td {
 .tagFirst {
     width: 84px;
     text-align: center;
+}
+
+.tagSecond {
+    width: 100%;
 }
 
 h1 {text-align: center;}

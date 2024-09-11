@@ -13,21 +13,21 @@ body {
     box-sizing: border-box;
     border-bottom-width: 8px;
     border-bottom-color: #6f2232;
-    border-bottom-style: solid;
-    
-    h1 {
-        margin: -10px;
-        text-align: left;
-        font-size: 250%;
-    }
+    border-bottom-style: solid;    
+}
 
-    h2 {
-        margin: -10px;
-        text-align: left;
-        padding-top: 10px;
-        font-size: 100%;
-        font-style: italic;
-    }
+.header h1 {
+    margin: -10px;
+    text-align: left;
+    font-size: 250%;
+}
+
+.header h2 {
+    margin: -10px;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 100%;
+    font-style: italic;
 }
 
 /*
@@ -41,36 +41,43 @@ th, td {
 .imgList {
     box-sizing: border-box;
     margin: 12px;
-    table {
-        border-collapse:collapse;
-        width: 100%;
-    }
     
-    th, td {
-        text-align: center;
-        padding: 4px;
-    }
+}
 
-    td:hover {
-        background-color: #6f2232;
-    }
-    
+.imgList table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+.imgList th, td {
+    text-align: center;
+    padding: 4px;
+}
+
+.imgList td:hover {
+    background-color: #6f2232;
 }
 
 .tagTable {
     text-align: justify;
     margin: 12px;
-    tr:nth-child(even) {background-color: #2b2b31;}
-    th, td {
-        padding: 8px;
-    }
-    th {
-        background-color: #6f2232;
-    }
-    td:hover {
-        color:#e40649;
-        font-weight: bold;
-    }
+}
+
+.tagTable tr:nth-child(even) {
+    background-color: #2b2b31;
+}
+
+.tagTable th, td {
+    padding: 8px;
+}
+
+.tagTable th {
+    background-color: #6f2232;
+}
+
+.tagTable td:hover {
+    color:#e40649;
+    font-weight: bold;
 }
 
 .tagFirst {
@@ -80,6 +87,7 @@ th, td {
 
 .tagSecond {
     width: 100%;
+    text-align: left;
 }
 
 h1 {text-align: center;}

@@ -1,19 +1,9 @@
-body, header, section, main, footer{
-    width: 100%;
-}
-
 body {
     background-color: #1a1a1d;
     color: #ffffff;
     font-size: 16px;
     padding: 0px;
     margin: 0px;
-    height: 100vh;
-}
-
-h1,h2,h3,h4,h5,h6, p{
-    margin: 0;
-    padding: 0;
 }
 
 .header {

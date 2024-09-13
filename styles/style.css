@@ -10,7 +10,6 @@ body {
     height: 100vh;
     margin: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -20,95 +19,6 @@ h1, h2, h3, h4, h5, h6, p{
 
 a {
     text-decoration: none;
-=======
-    border-bottom-width: 8px;
-    border-bottom-color: #6f2232;
-    border-bottom-style: solid;    
-}
-
-.header h1 {
-    margin: -10px;
-    text-align: left;
-    font-size: 250%;
-}
-
-.header h2 {
-    margin: -10px;
-    text-align: left;
-    padding-top: 10px;
-    font-size: 100%;
-    font-style: italic;
-}
-
-/*
-
-
-th, td {
-    text-align: left;
-    padding: 8px;
-}
-*/
-.imgList {
-    box-sizing: border-box;
-    margin: 12px;
-    
-}
-
-.imgList table {
-    border-collapse:collapse;
-    width: 100%;
-}
-
-.imgList th, td {
-    text-align: center;
-    padding: 4px;
-}
-
-.imgList td:hover {
-    background-color: #6f2232;
-}
-
-.tagTable {
-    text-align: justify;
-    margin: 12px;
-}
-
-.tagTable tr:nth-child(even) {
-    background-color: #2b2b31;
-}
-
-.tagTable th, td {
-    padding: 8px;
-}
-
-.tagTable th {
-    background-color: #6f2232;
-}
-
-.tagTable td:hover {
-    color:#e40649;
-    font-weight: bold;
-}
-
-.tagFirst {
-    width: 100px;
-    text-align: center;
-}
-
-.tagSecond {
-    width: 94%;
-    text-align: left;
-}
-
-h1 {text-align: center;}
-h2 {text-align: center;}
-
-h3 {
-    padding-top: 14px;
-    border-top-width: 8px;
-    border-top-color: #4e4e50;
-    border-top-style: solid;
->>>>>>> 8251d4bf8f706a918e335c7a67b44063b5ad2bab
 }
 
 a:link {

@@ -1,0 +1,60 @@
+article {
+    position: relative;
+    padding: 12px 14px;
+}
+
+.imgList {
+    box-sizing: border-box;   
+}
+
+.imgList table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+.imgList td {
+    text-align: center;
+    padding: 4px;
+}
+
+.imgList td:hover {
+    background-color: #6f2232;
+}
+
+.tagTable {
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.tagTable tr:nth-child(even) {
+    background-color: #2b2b31;
+}
+
+.tagTable th, td {
+    padding: 8px;
+}
+
+.tagTable th {
+    background-color: #6f2232;
+}
+
+.tagTable td:hover {
+    color:#e40649;
+}
+
+.tagFirst {
+    width: 90px;
+    text-align: center;
+}
+
+.tagSecond {
+    width: 90%;
+    text-align: left;
+}
+
+.tag-centering{
+    border-collapse:collapse;
+    
+    margin: 0 auto;
+    display: block;
+}

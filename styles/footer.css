@@ -1,0 +1,28 @@
+footer {
+    text-align: center;
+    background-color: #c3073f;
+    box-sizing: border-box;
+    border-top-width: 8px;
+    border-top-color: #6f2232;
+    border-top-style: solid;
+    font-size: 12px;
+} 
+
+footer p {
+    /*font-style: italic;*/
+    text-transform: uppercase;
+}
+
+footer li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 4px;
+    padding-left: 4px
+}
+
+footer a:link {
+    color:#ffffff;
+}
+footer a:visited {
+    color:#ffffff;
+}

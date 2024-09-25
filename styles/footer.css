@@ -1,23 +1,31 @@
 footer {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*text-align: center;*/
     background-color: #c3073f;
-    box-sizing: border-box;
     border-top-width: 8px;
     border-top-color: #6f2232;
     border-top-style: solid;
     font-size: 12px;
 } 
 
-footer p {
-    /*font-style: italic;*/
-    text-transform: uppercase;
+.footer-center {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 footer li {
-    display: inline-block;
     list-style: none;
     padding-right: 4px;
     padding-left: 4px
+}
+
+footer p {
+    /*font-style: italic;*/
+    text-transform: uppercase;
+    display: inherit;
+    justify-content: center;
 }
 
 footer a:link {

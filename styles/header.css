@@ -1,4 +1,4 @@
-header {
+#header {
     background-color: #c3073f;
     border-bottom-width: 8px;
     border-bottom-color: #6f2232;
@@ -14,28 +14,28 @@ header {
     z-index: 1;
 }
 
-header ul { 
+#header ul { 
     margin: inherit;
     padding: inherit;
 }
-header li {
+#header li {
     display: inline-block; 
 }
 
-header a {
+#header a {
     transition: 0.3s;
 }
-header a:link {
+#header a:link {
     color:#ffffff;
 }
-header a:visited {
+#header a:visited {
     color:#ffffff;
 }
-header a:hover {
+#header a:hover {
     color:#000000; 
 }
 
-header button {
+button.header-button  {
     background-color: #c3073f;
     color: white;
     border: none;
@@ -45,41 +45,33 @@ header button {
     font-size: 16px;
     transition: 0.5s;
 }
-header button:hover {
+button.header-button:hover {
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
 }
-.header-name button:hover {
+button.header-name:hover {
     background-color: #c3073f;
 }
 
-.header-name button{
+button.header-name {
     font-size: 30px;
     font-weight: bold;
     margin: inherit;
     padding: 7px 10px 7px 10px;
 }
 
-.header-aside button {
+button.header-aside {
     padding: 11px 10px 3px 10px;
 }
 
 .header-aside img {
     height: 30px;
 }
+
 .header-left {
     float: left;
 }
-
 .header-right {
-    /*margin-top: 7px;*/
     float: right;    
 }
-    /*
-    .header-name {
-        margin-top: 5px;
-        margin-left: 14px;
-        font-size: 30px;
-        font-weight: bold;
-    }*/

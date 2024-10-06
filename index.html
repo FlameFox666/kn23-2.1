@@ -25,23 +25,24 @@
         <header id="header">
             <nav>
                 <script src="./js/header.js"></script>
-                
                 <ul>
-                    <li class="header-aside header-left">
-                        <button type="button" onclick="openNav()" >
+                    <li class="header-left">
+                        <button type="button" onclick="openNav()" class="header-button header-aside">
                             <img src="./images/home_ico.png" alt="aside">
                             <script src="./js/sidenav.js"></script>
                         </button>
                     </li>
                     <li class="header-name header-left">
-                        <button type="button">CataloGames</button>
+                        <button type="button" class="header-button header-name">CataloGames</button>
                     </li>
                     <li class="header-right">
-                        <button type="button">Log in</button>
+                        <button type="button" class="header-button">Log in</button>
                     </li>
+                    <!--
                     <li class="header-right">
-                        <button type="button">Sign up</button>
+                        <button type="button" class="header-button">Sign up</button>
                     </li>
+                    -->
                 </ul>
             </nav>
         </header>
@@ -286,15 +287,13 @@
         </main>
 
         <footer>
-            <div class="footer-nav footer-center">
-                <nav>
-                    <ul class="footer-center">
-                        <li><a href="#">Політика конфіденційності</a></li>
-                        <li><a href="#">Умови використання</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=cv6a81Ulx-g">Зв'язок з нами</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="footer-center">
+                <ul class="footer-center">
+                    <li><a href="#">Політика конфіденційності</a></li>
+                    <li><a href="#">Умови використання</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=cv6a81Ulx-g">Зв'язок з нами</a></li>
+                </ul>
+            </nav>
             <p>&copy; 2024 All right reserver.</p>
         </footer>
     </body>

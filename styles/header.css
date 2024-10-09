@@ -69,9 +69,9 @@ button.header-aside {
     height: 30px;
 }
 
-.header-left {
+li.header-left {
     float: left;
 }
-.header-right {
+li.header-right {
     float: right;    
 }

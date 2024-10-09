@@ -11,12 +11,13 @@
         <meta name="keywords" content="game, rating">
 
         <title>CataloGames</title>
-        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+
         <link rel="stylesheet" href="./styles/normalize.css">
         <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="./styles/header.css">
         <link rel="stylesheet" href="./styles/aside.css">
-        <link rel="stylesheet" href="./styles/section.css">
         <link rel="stylesheet" href="./styles/main.css">
         <link rel="stylesheet" href="./styles/footer.css">
     </head>
@@ -32,12 +33,15 @@
                             <script src="./js/sidenav.js"></script>
                         </button>
                     </li>
+                    
                     <li class="header-name header-left">
                         <button type="button" class="header-button header-name">CataloGames</button>
                     </li>
+
                     <li class="header-right">
                         <button type="button" class="header-button">Log in</button>
                     </li>
+                    
                     <!--
                     <li class="header-right">
                         <button type="button" class="header-button">Sign up</button>
@@ -61,14 +65,13 @@
             </nav>
         </aside>
 
-        <section>
-            <div class="banner">
+        <main>
+            <!--Банер-->
+            <section class="banner">
                 <img src="./images/banner.png" alt="Банер">
                 <h1 class="banner-heading"> найкращий каталог<br>комп'ютерних ігор</h1>
-            </div>
-        </section>
+            </section>
 
-        <main>
             <article>
                 <h2> Перелік схожих проєктів: </h3>
                 <ul style="list-style-type:disc">
@@ -83,7 +86,70 @@
                     </li>
                 </ul>
             </article>
-            
+
+            <!---->
+            <section>
+                <div class="ratingGrid">
+                    
+                    <div class="ratingGrid-name">Нещодавні релізи
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                    </div>
+
+                    <div class="ratingGrid-name">Незабаром
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                    </div>
+
+                    <div class="ratingGrid-name">Найбільш очікуваніші
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                        <div class="ratingGrid-item">
+                            <div class="ratingGrid-img"><img src="./images/catalog_placeholder.png" alt="game banner"></div>
+                            <div><a href="#">Placeholder</a></div>
+                            <div class="ratingGrid-date">0000-00-00</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--
+                
+
             <article class="imgList">
                 <h2> Зображення cхожего проєкту: </h2>
                 <table>
@@ -284,6 +350,7 @@
                     </tfoot>
                 </table>
             </article>
+            -->
         </main>
 
         <footer>

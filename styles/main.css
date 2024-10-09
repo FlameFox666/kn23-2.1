@@ -33,12 +33,14 @@ article, section {
 
 .ratingGrid {
     display: grid;
-    margin: 0 50px;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    margin: 0 auto;
+    grid-template-columns: 250px 250px 250px;
     gap: 0px 30px;
 }
 
 .ratingGrid a:hover {
+    
     color:#e40649;
     text-decoration: underline;
 }

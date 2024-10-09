@@ -35,6 +35,7 @@ article, section {
     display: grid;
     width: 75%;
     margin: 0 auto;
+    justify-content:center;
     grid-template-columns: 250px 250px 250px;
     gap: 0px 30px;
 }

@@ -32,7 +32,7 @@ article, section {
 }
 
 .ratingGrid {
-    display: grid;
+    display:grid;
     width: 75%;
     margin: 0 auto;
     justify-content:center;
@@ -41,11 +41,11 @@ article, section {
 }
 
 .ratingGrid a:hover {
-    
     color:#e40649;
     text-decoration: underline;
 }
 .ratingGrid-name {
+    padding: 5px;
     display: inherit;
     text-transform: uppercase;
     font-weight: bold;
@@ -77,6 +77,18 @@ article, section {
     font-size: 85%;
     align-self: start;
 }
+
+@media screen and (max-width: 810px) {
+    div.ratingGrid {
+      display: block;
+      width: 250px;
+    }
+    div.ratingGrid-name:nth-child(even) {
+        background-color: #1f1f22;
+        
+    }
+  }
+
 
 .imgList {
     box-sizing: border-box;

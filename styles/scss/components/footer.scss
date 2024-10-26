@@ -1,4 +1,5 @@
-@use "../common/var";
+@use "../common/variables" as var;
+@use "../common/extend";
 
 footer {
     display: flex;
@@ -11,12 +12,11 @@ footer {
     }
     
     p {
-        display: inherit;
+        @extend %flex-center;
         background-color: var.$foot-bg-border;
         font-weight: bold;
         color: var.$foot-text;
         padding: 16px 0;
-        justify-content: center;
     }
     
     a:link {

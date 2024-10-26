@@ -1,12 +1,13 @@
-@use "../common/var";
+@use "../common/fonts" as fnt;
+@use "../common/variables" as var;
+@use "../common/extend";
 
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 2;
-  top: 0;
-  left: 0;
+  @extend %to-zero;
   background-color: var.$foot-bg-border;
   overflow-x: hidden;
   padding-top: 60px;
@@ -24,7 +25,7 @@
   
   a {
       text-decoration: none;
-      font-size: var.$font-size-bbbb;
+      font-size: fnt.$size-bbbb;
       color: var.$foot-text;
       white-space: nowrap;
       transition: 0.3s;

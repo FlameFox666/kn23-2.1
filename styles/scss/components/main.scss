@@ -1,4 +1,6 @@
-@use "../common/var";
+@use "../common/fonts" as fnt;
+@use "../common/variables" as var;
+@use "../common/extend";
 
 article, section {
     position: relative;
@@ -6,8 +8,7 @@ article, section {
 }
 
 .banner{
-    padding: 0;
-    margin: 0;
+    @extend %reset-pad-mar;
     margin-top: 8px;
     position: relative;
 
@@ -22,13 +23,11 @@ article, section {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100%;
     text-align: center;
     text-transform: uppercase;
     font-size: 200%;
     height: 300px;
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     align-items: center;
 
 }
@@ -53,7 +52,7 @@ article, section {
     display: inherit;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 110%;
+    font-size: fnt.$size-b;
 }
 
 .ratingGrid-item {

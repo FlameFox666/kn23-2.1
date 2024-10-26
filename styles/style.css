@@ -177,6 +177,21 @@ template {
   display: none;
 }
 
+.banner, #header {
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav, #overlay {
+  top: 0;
+  left: 0;
+}
+
+footer p, .banner-heading {
+  display: flex;
+  justify-content: center;
+}
+
 body, header, main, footer {
   box-sizing: border-box;
   width: 100%;
@@ -218,8 +233,6 @@ a:hover {
 #overlay {
   position: fixed;
   display: none;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -236,8 +249,6 @@ a:hover {
   font-family: Georgia, serif;
   font-size: 115%;
   transition: top 0.3s;
-  margin: 0;
-  padding: 0;
   top: 0;
   z-index: 3;
 }
@@ -315,8 +326,6 @@ li.header-right {
   width: 0;
   position: fixed;
   z-index: 2;
-  top: 0;
-  left: 0;
   background-color: #2E2E2E;
   overflow-x: hidden;
   padding-top: 60px;
@@ -367,8 +376,6 @@ article, section {
 }
 
 .banner {
-  padding: 0;
-  margin: 0;
   margin-top: 8px;
   position: relative;
 }
@@ -382,13 +389,10 @@ article, section {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
   text-align: center;
   text-transform: uppercase;
   font-size: 200%;
   height: 300px;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -410,7 +414,7 @@ article, section {
   display: inherit;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 110%;
+  font-size: 115%;
 }
 
 .ratingGrid-item {
@@ -459,12 +463,10 @@ footer li {
   padding: 4px 4px;
 }
 footer p {
-  display: inherit;
   background-color: #2E2E2E;
   font-weight: bold;
   color: #8a8a8a;
   padding: 16px 0;
-  justify-content: center;
 }
 footer a:link {
   color: #ffffff;

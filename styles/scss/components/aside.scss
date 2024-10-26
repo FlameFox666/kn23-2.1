@@ -1,0 +1,54 @@
+@use "../common/var";
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: var.$foot-bg-border;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.3s;
+
+  ul{
+      padding: 0;
+      margin: 20px;
+    }
+    
+  li{
+      padding: 8px 0;
+      list-style: none;
+  }
+  
+  a {
+      text-decoration: none;
+      font-size: var.$font-size-bbbb;
+      color: var.$foot-text;
+      white-space: nowrap;
+      transition: 0.3s;
+  }
+      
+  a:hover {
+      color: var.$txt-color;
+  }
+  
+  .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+}
+
+.main {
+transition: margin-left .5s;
+padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}

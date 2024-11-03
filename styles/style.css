@@ -370,11 +370,6 @@ li.header-right {
     font-size: 18px;
   }
 }
-article, section {
-  position: relative;
-  margin: 15px 20px;
-}
-
 .banner {
   margin-top: 8px;
   position: relative;
@@ -452,6 +447,11 @@ article, section {
     background-color: #1f1f22;
   }
 }
+article, section {
+  position: relative;
+  margin: 15px 20px;
+}
+
 footer {
   display: flex;
   flex-direction: column;

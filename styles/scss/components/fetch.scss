@@ -14,17 +14,17 @@
         $size: 500px;
         height: $size;
         width: $size;
-        margin: 15px 0 8px 0
+        margin: 24px 0 8px 0
     }
     button {
         background-color: var.$head-bg-color;
         font-size: fnt.$size-n;
         border: none;
         height: 30px;
-        width: 200px;
+        width: 91%;
         cursor: pointer;
         transition: background-color 0.3s; 
-        margin-bottom: 2px;
+        margin: 4px 0 6px 0;
         &:hover { 
             background-color: white;
         }

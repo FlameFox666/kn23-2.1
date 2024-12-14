@@ -2,6 +2,7 @@
 
 .ref {
     @extend %flex-center;
+    flex-wrap: wrap;
     flex-direction: row;
     
     .ref-item {
@@ -11,11 +12,7 @@
         max-width: 200px; 
         height: 100px;
         padding: 5px 20px 7px 20px;
-        border-radius: 10px;
-        &:hover {
-            transition: 0.3s; 
-            background-color: #6f2232;
-        }
+        @extend %hover
     }
     p {
         font-weight: bold;

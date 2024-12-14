@@ -1,0 +1,32 @@
+@use "../common/extend";
+@use "../common/fonts" as fnt;
+
+.gallery {
+    @extend %flex-center;
+    flex-wrap: wrap;
+    color: aqua;
+}
+
+.gallery-item{
+    padding: 10px;
+    margin: 0 10px;
+    img{
+        height: 300px;
+        width: 200px;
+    }
+    p {
+        @extend %reset-pad-mar;
+        font-size: fnt.$size-bb; 
+    }
+    a {
+        color: white
+    }
+    @extend %hover;
+
+    .gallery-item-rating {
+        font-weight: bold;
+        font-size: fnt.$size-n;
+    }
+}
+
+

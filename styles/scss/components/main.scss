@@ -1,9 +1,19 @@
 @use "banner";
+@use "vitrina";
 @use "rating_grid";
 @use "fetch";
 @use "reference";
 
+$scale-n: 25px 60px 15px 60px;
+$scale-s: 25px 30px 15px 30px;
+
 article, section {
     position: relative;
-    margin: 25px 60px 15px 60px;
+    margin: $scale-n;
+}
+
+@media screen and (max-width: 810px) {
+    article, section {
+        margin: $scale-s;
+    }   
 }

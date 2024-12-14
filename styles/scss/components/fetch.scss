@@ -1,18 +1,37 @@
+@use "../common/variables" as var;
 @use "../common/extend";
-
+@use "../common/fonts" as fnt;
 .fetch {
     @extend %flex-center;
     flex-direction: column;
-    
+    border: 10px solid var.$bg-color-nth;
+    border-radius: 20px;
+    background-color: var.$bg-color-nth;
+    max-width: 550px; 
+    max-height: 600px; 
+    margin: 0 auto; 
     div img {
         $size: 500px;
-
         height: $size;
         width: $size;
+        margin: 15px 0 8px 0
     }
     button {
-        
+        background-color: var.$head-bg-color;
+        font-size: fnt.$size-n;
+        border: none;
         height: 30px;
         width: 200px;
+        cursor: pointer;
+        transition: background-color 0.3s; 
+        margin-bottom: 2px;
+        &:hover { 
+            background-color: white;
+        }
+    
+        &:active {
+            background-color: var.$head-bg-border;
+        }
     }
+
 }

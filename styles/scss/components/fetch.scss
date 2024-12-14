@@ -1,7 +1,18 @@
-.fetch{
-    background-color:aqua;
-    img{
-        height: 200px;
+@use "../common/extend";
+
+.fetch {
+    @extend %flex-center;
+    flex-direction: column;
+    
+    div img {
+        $size: 500px;
+
+        height: $size;
+        width: $size;
+    }
+    button {
+        
+        height: 30px;
         width: 200px;
     }
 }

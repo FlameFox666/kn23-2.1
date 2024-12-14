@@ -1,6 +1,10 @@
 @use "../common/variables" as var;
 @use "../common/extend";
 @use "../common/fonts" as fnt;
+
+$scale-n: 500px;
+$scale-s: 500px;
+
 .fetch {
     @extend %flex-center;
     flex-direction: column;
@@ -11,9 +15,8 @@
     max-height: 600px; 
     margin: 0 auto; 
     div img {
-        $size: 500px;
-        height: $size;
-        width: $size;
+        height: $scale-n;
+        width: $scale-n;
         margin: 24px 0 8px 0
     }
     button {
@@ -35,3 +38,10 @@
     }
 
 }
+
+@media screen and (max-width: 499px) {
+    .fetch div img {
+        height: $scale-s;
+        width: $scale-s;
+    }
+  }

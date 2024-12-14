@@ -1,0 +1,23 @@
+@use "../common/extend";
+
+.ref {
+    @extend %flex-center;
+    flex-direction: row;
+    
+    .ref-item {
+        @extend %flex-center;
+        flex-direction: column;
+        margin: 0 5%;
+        max-width: 200px; 
+        height: 100px;
+        padding: 5px 20px 7px 20px;
+        border-radius: 10px;
+        &:hover {
+            transition: 0.3s; 
+            background-color: #6f2232;
+        }
+    }
+    p {
+        font-weight: bold;
+    }
+}

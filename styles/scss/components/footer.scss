@@ -34,5 +34,8 @@ footer {
     
     .footer-copyright {
         padding: 0 4px;
+        &:hover {
+            color: var.$link-color;
+        }
     }
 } 

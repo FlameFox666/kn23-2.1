@@ -1,8 +1,9 @@
 @use "banner";
 @use "rating_grid";
 @use "fetch";
+@use "reference";
 
 article, section {
     position: relative;
-    margin: 15px 60px;
+    margin: 25px 60px 15px 60px;
 }

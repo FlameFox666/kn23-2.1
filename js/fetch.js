@@ -11,7 +11,7 @@ async function fetchRandomDogImage() {
         }
 
         const data = await response.json();
-        img.src = data.message; // Устанавливаем URL изображения
+        img.src = data.message; 
         img.alt = 'Випадкове фото собаки';
     } catch (error) {
         console.error('Помилка у запиті:', error);
